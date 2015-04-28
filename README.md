@@ -11,6 +11,7 @@ Browser-based remake of the classic arcade game
 
 ## Features
 * Keeps track of score, lives remaining, shields remaining
+* (future) Keep track of high-score, increases difficulty, add sound effects
 
 ## Technical Goodies
 * Written in JavaScript using HTML5 Canvas API
