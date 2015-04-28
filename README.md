@@ -19,7 +19,7 @@ Browser-based remake of the classic arcade game
 * [Ship] class uses JavaScript 'Math' Object to calculate ship and bullet movement
 * [Game] class determines collisions and removes appropriate objects
 
-[util.js]: ./asteroids/lib/util.js
-[Ship]: ./asteroids/lib/ship.js
-[Game]: ./asteroids/lib/game.js
+[util.js]: ./lib/util.js
+[Ship]: ./lib/ship.js
+[Game]: ./lib/game.js
 
