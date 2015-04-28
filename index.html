@@ -14,10 +14,12 @@
     <script src="lib/ship.js"></script>
     <script src="lib/bullet.js"></script>
 
-    <canvas id="game-canvas" width=800 height=800> </canvas>
+    <canvas id="game-canvas"> </canvas>
     <script>
-      var canvasEl = document.getElementById("game-canvas")
-      new Asteroids.GameView(canvasEl).start();
+      var canvasEl = document.getElementById("game-canvas");
+      canvasEl.width = window.innerWidth * 0.90;
+      canvasEl.height = window.innerHeight * 0.90;
+      new Asteroids.GameView(canvasEl).startMenu();
     </script>
 
   </body>
