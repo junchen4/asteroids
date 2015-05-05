@@ -14,11 +14,13 @@
     <script src="lib/ship.js"></script>
     <script src="lib/bullet.js"></script>
 
-    <canvas id="game-canvas"> </canvas>
+    <canvas id="game-canvas" style="background-image: url('images/space.jpg');
+                   background-size: cover;"> </canvas>
     <script>
       var canvasEl = document.getElementById("game-canvas");
-      canvasEl.width = window.innerWidth * 0.90;
+      canvasEl.width = window.innerWidth * 0.99;
       canvasEl.height = window.innerHeight * 0.90;
+
       new Asteroids.GameView(canvasEl).startMenu();
     </script>
 
