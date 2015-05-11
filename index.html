@@ -1,12 +1,32 @@
 <!DOCTYPE html>
   <head>
     <title>Asteroids</title>
+        <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+        canvas {
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            /*   top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;*/
+        }
+    </style>
   </head>
 
   <body>
     <script src="lib/keymaster-master/keymaster.js"></script>
 
     <script src="lib/util.js"></script>
+    <script src="lib/explosion.js"></script>
     <script src="lib/movingObject.js"></script>
     <script src="lib/asteroid.js"></script>
     <script src="lib/game.js"></script>
@@ -18,8 +38,8 @@
                    background-size: cover;"> </canvas>
     <script>
       var canvasEl = document.getElementById("game-canvas");
-      canvasEl.width = window.innerWidth * 0.99;
-      canvasEl.height = window.innerHeight * 0.90;
+      canvasEl.width = window.innerWidth;
+      canvasEl.height = window.innerHeight;
 
       new Asteroids.GameView(canvasEl).startMenu();
     </script>
