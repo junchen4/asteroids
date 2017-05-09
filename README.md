@@ -2,7 +2,7 @@
 
 Browser-based remake of the classic arcade game
 
-### [Play now!](http://www.junchen.me/asteroids/)
+### [Play now!](http://asteroids-jc.herokuapp.com)
 
 ## How-to
 * Use arrow keys to move in corresponding directions
